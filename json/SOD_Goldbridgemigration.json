@@ -1,0 +1,100 @@
+{
+    "projects":  [
+                     {
+                         "indexfilepath":  "M:\\GDO JOBS\\SOD\\Goldbridge\\GCT06871\\01054983\\INDEX.TXT",
+                         "conditional_values":  {
+                                                    "kwf_condition":  {
+                                                                          "default_value":  "Scan On Demand"
+                                                                      }
+                                                },
+                         "index_attrs":  [
+                                             {
+                                                 "index_position":  0,
+                                                 "type":  "STRING",
+                                                 "elogrpname":  "SOD_CODE1"
+                                             },
+                                             {
+                                                 "index_position":  1,
+                                                 "type":  "STRING",
+                                                 "elogrpname":  "SOD_CODE2"
+                                             },
+                                             {
+                                                 "index_position":  2,
+                                                 "type":  "STRING",
+                                                 "elogrpname":  "SOD_CODE3"
+                                             },
+                                             {
+                                                 "index_position":  3,
+                                                 "type":  "STRING",
+                                                 "elogrpname":  "SOD_REQUESTOR_EMAIL"
+                                             },
+                                             {
+                                                 "index_position":  4,
+                                                 "type":  "STRING",
+                                                 "elogrpname":  "SOD_WODELDATE"
+                                             },
+                                             {
+                                                 "index_position":  5,
+                                                 "type":  "STRING",
+                                                 "elogrpname":  "SOD_WONUMBER"
+                                             },
+                                             {
+                                                 "index_position":  6,
+                                                 "type":  "STRING",
+                                                 "elogrpname":  "SOD_BOX"
+                                             },
+                                             {
+                                                 "index_position":  7,
+                                                 "type":  "STRING",
+                                                 "elogrpname":  "SOD_FILE"
+                                             },
+                                             {
+                                                 "index_position":  8,
+                                                 "type":  "STRING",
+                                                 "elogrpname":  "SOD_DESC"
+                                             },
+                                             {
+                                                 "index_position":  9,
+                                                 "type":  "STRING",
+                                                 "elogrpname":  "DOCUMENT_PATH"
+                                             }
+                                         ],
+                         "name":  "20200528_01054983",
+                         "documentrootpath":  "M:\\GDO JOBS\\SOD\\Goldbridge\\GCT06871\\01054983\\",
+                         "migration_attrs":  [
+                                                 {
+                                                     "index_position":  100,
+                                                     "type":  "STRING",
+                                                     "elogrpname":  "KWFNAME",
+                                                     "condition_name":  "kwf_condition"
+                                                 },
+                                                 {
+                                                     "index_position":  101,
+                                                     "type":  "STRING",
+                                                     "elogrpname":  "ELOOBJID"
+                                                 },
+                                                 {
+                                                     "index_position":  102,
+                                                     "type":  "STRING",
+                                                     "elogrpname":  "UPLOADTIME"
+                                                 }
+                                             ]
+                     }
+                 ],
+    "csv_splitter":  "|",
+    "connection":  {
+                       "db":  {
+                                  "dbport":  "1433",
+                                  "password":  "Gdo.123",
+                                  "username":  "bulkupload",
+                                  "dbhost":  "IMD0VSQL01",
+                                  "dbname":  "SOD_Goldbridge",
+                                  "batchsize":  "100"
+                              },
+                       "ix":  {
+                                  "username":  "gdoadmin",
+                                  "ixurl":  "https://gsod.gracedigitaloffice.com.au/ix-GoldbridgeRS/ix",
+                                  "password":  "gW825bdq^yqQmMt!"
+                              }
+                   }
+}
