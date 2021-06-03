@@ -15,8 +15,7 @@ V4 - Nationwide deployment multiple network drives spread across the nation had 
 V5 - Parallel uploading. Large files were causing bottle necking during uploading. Trigger file now starts the batch uploads in parallel to prevent bottlenecking due to large uploads.
 
 Detection Method Workflow
-
-![image](https://user-images.githubusercontent.com/55390802/120593647-21b1ea80-c483-11eb-95fc-6de257c36918.png)
+![image](https://user-images.githubusercontent.com/55390802/120637770-a49e6980-c4b2-11eb-8143-700d89847212.png)
 
 Upload Prep, Upload Execution and Exception Handling
 ![image](https://user-images.githubusercontent.com/55390802/120593753-43ab6d00-c483-11eb-9f5f-08575035a4a1.png)
