@@ -16,7 +16,8 @@ V5 - Parallel uploading. Large files were causing bottle necking during uploadin
 
 Detection Method Workflow
 
-![image](https://user-images.githubusercontent.com/55390802/120637770-a49e6980-c4b2-11eb-8143-700d89847212.png)
+![image](https://user-images.githubusercontent.com/55390802/120638735-d82dc380-c4b3-11eb-8a8e-9482f4abe0e2.png)
+
 
 Upload Prep, Upload Execution and Exception Handling
 ![image](https://user-images.githubusercontent.com/55390802/120593753-43ab6d00-c483-11eb-9f5f-08575035a4a1.png)
