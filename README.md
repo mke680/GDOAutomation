@@ -20,5 +20,4 @@ Detection Method Workflow
 
 
 Upload Prep, Upload Execution and Exception Handling
-![image](https://user-images.githubusercontent.com/55390802/120593753-43ab6d00-c483-11eb-9f5f-08575035a4a1.png)
-
+![image](https://user-images.githubusercontent.com/55390802/120643371-6eb0b380-c4b9-11eb-9673-35de3e712a7a.png)
