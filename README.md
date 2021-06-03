@@ -2,7 +2,7 @@
 
 Company needed workflow automation that could assist with uploading files outputed by the Kodak scanning software to a 3rd party portal.
 
-There was quite a bit of scope creep in this. Each time a version was completed the business would request more features. Instead of allowing us to scope the entire business requirement.
+There was quite a bit of scope creep in this. Each time a version was completed the business would request more features. Instead of allowing us to scope the entire business requirement. Also because I was seconded to another division for this project they were unwilling to alter internal procedures to better suit automation forcing some very inelegent solutions to problems that shouldn't exist.
 
 V1 - Upload Single Batch of Files with Metadata to 3rd Party Portal. JSON Metadata, Configuration Files for Jar uploader\
 V2 - Add Different clients. JSON Metadata reformated based on different job types. Configuration Files generator had to support multiple functions. Functions split of to ease servicing.\
