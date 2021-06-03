@@ -1,6 +1,10 @@
-# Automation
+# Powershell Based Workflow automation
 
-Company needed a script that could detect scanned items outputing from Kodak and would automatically trigger a 3rd party upload "tool"
+Company needed workflow automation that could detect scanned items outputing from Kodak Scanning software
+
+
+
+
 
 ![image](https://user-images.githubusercontent.com/55390802/120593647-21b1ea80-c483-11eb-95fc-6de257c36918.png)
 
